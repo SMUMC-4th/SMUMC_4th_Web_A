@@ -1,0 +1,143 @@
+#header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 80px;
+    z-index: 1;
+}
+
+#logo-icon {
+    width: 102px;
+}
+
+#logo-icon:hover {
+    cursor: pointer;
+}
+
+#search {
+    padding-left: 16px;
+    margin-left: 25.5vw; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 333px;
+    height: 46px;
+    border: 1px solid #dddddd;
+    border-radius: 40px;
+}
+
+#search:hover {
+    cursor: pointer;
+}
+
+.search-button {
+    margin: -1px;
+    font-size: 14px;
+    color: #222;
+}
+
+.separator {
+    font-size: 25px;
+    font-weight: 100;
+    color: #dddddd;
+}
+
+#search-icon-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-color: #ff385c;
+    border-radius: 16px;
+}
+
+#search-icon-button:hover {
+    cursor: pointer;
+}
+
+
+#search-button-icon {
+    left: 50%;
+    top: 50%;
+}
+
+#register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    height: 100%;
+    margin-left: 9vw;
+    margin-right: 10px;
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.43;
+    color: #222;
+}
+
+#language {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 42px;
+}
+
+#my {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 72px;
+    height: 40px;
+    border-radius: 26px;
+    border: 1px solid #dddddd;
+    padding-left: 5px;
+    margin-right: 80px;
+    background-color: transparent;
+    /* padding: 5px 5px 5px 12px; */
+}
+
+#my:hover {
+    cursor: pointer;
+}
+
+.my-menu {
+    position: absolute;
+    display: none;
+    list-style: none;
+    background-color: #ffffff;
+    border: #ffffff 1px solid;
+    border-radius: 16px;
+    top: 76px;
+    right: 240px;
+    margin: 0 8px;
+    padding: 8px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.my-menu li {
+    font-weight: 400;
+    width: 210px;
+    padding: 16px;
+    font-size: 14px;
+    color: #222222;
+}
+
+.my-menu.active {
+    display: flex;
+    flex-direction: column;
+}
+
+#my-sign-up {
+    font-weight: 600;
+}
+
+#my-login {
+    border-bottom: #dddddd 1px solid;
+}
