@@ -5,3 +5,5 @@
 |------|------|---------|
 |1주차|클론 코딩|웹 구조, HTML, CSS|
 |2주차|클론 코딩|JavaScript, 동적 페이지|
+|3주차|React로 클론 코딩|Component, JSX, Props, State|
+|4주차|Routing 적용|SSR/CSR, SPA, Routing|
