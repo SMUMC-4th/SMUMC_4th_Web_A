@@ -1,0 +1,132 @@
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #fff;
+    border-top: 1px solid #dddddd;
+    height: 47px;
+    padding-top: 13px;
+    padding-bottom: 14px;
+}
+
+.footer-menu-button {
+    border: none;
+    background-color: transparent;
+    width: 120px;
+    padding: 0 auto;
+    margin: 0 auto;
+    margin-top: -3px;
+}
+
+.footer-item {
+    padding: 0.2em;
+    font-size: 14px;
+    line-height: 18px;
+    white-space: nowrap; 
+}
+
+#footer-left, #footer-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer-left {
+    margin-left: 80px;
+}
+
+#footer-right {
+    margin-right: 80px;
+}
+
+.footer-item-right {
+    margin-top: 0.2em;
+    margin-left: 1em;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap; 
+}
+
+.footer-item-right:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#footer-language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.15em;
+    margin-right: -10px;
+}
+
+.footer-menu { 
+    display: none;
+    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.footer-menu.active {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.footer-close-button {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    border: none;
+    background-color: transparent;
+}
+
+.footer-close-button:hover {
+    cursor: pointer;
+}
+
+.footer-menu-div {
+    padding: 0 80px;
+    margin-top: 48px;
+    margin-bottom: 66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu-section {
+    padding: 0 12px;
+    width: 306px;
+}
+
+.footer-menu-category {
+    margin-bottom: 24px;
+}
+
+.footer-menu-category-title {
+    font-size: 14px;
+    color: #222222;
+}
+
+.footer-menu-content {
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+    margin-top: 16px;
+}
+
+.footer-menu-content:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    #footer {
+        display: none;
+    }
+}
