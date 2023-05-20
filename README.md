@@ -9,3 +9,4 @@
 |4주차|Routing 적용|SSR/CSR, SPA, Routing|
 |5주차|LifeCycle 적용|Hook, useEffect|
 |6주차|Redux 적용|상태관리 라이브러리, Store, Action, Reducer|
+|7주차|반응형 웹 구현|Media Query, Styled-components|
